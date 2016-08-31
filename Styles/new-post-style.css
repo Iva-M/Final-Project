@@ -1,1 +1,117 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------------------------------------------- CSS RESET ------------------------------------------ */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+#new-post-title {
+    width: 250px;
+}
+
+.new-post-block {
+    background: #dadada;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#editor-title {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font: 24px Lato-Black;
+    text-align: center;
+}
+
+#post-form {
+    background: #f2f2f2;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.single-element-form {
+    display: inline-block;
+    width: 40%;
+    padding-top: 10px;
+}
+
+.content-field {
+    resize: none;
+    border: 3px solid #f2f2f2;
+    outline: none;
+    width: 550px;
+    height: 300px;
+    border-radius: 15px;
+    text-align: left;
+    font: 12px Lato-Light;
+    padding: 10px;
+}
+
+input:focus {
+    font: 12px Lato;
+    font-weight: 100;
+    outline: none;
+    border: 3px solid #06c0ab;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
